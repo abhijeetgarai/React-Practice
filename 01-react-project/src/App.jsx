@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Fav from "./Fav"
 
 function App() {
 
@@ -27,6 +28,8 @@ function App() {
       <br/>
       <button onClick={removeValue}>Remove Value {counter}</button>
       <br/>
+      <br/>
+      <Fav/>
       
     </>
   )
